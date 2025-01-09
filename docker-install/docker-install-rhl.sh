@@ -16,7 +16,9 @@ sudo yum install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin d
 sudo systemctl start docker
 
 # Install Docker Compose
-DOCKER_COMPOSE_VERSION="v2.20.2"
+#DOCKER_COMPOSE_VERSION="v2.20.2"
+DOCKER_COMPOSE_VERSION="v2.32.2"
+
 sudo curl -L "https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
 # Make Docker Compose executable

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd ./docker-install
+
+chmod +x docker-install-ubuntu.sh
+
+./docker-install-ubuntu.sh
